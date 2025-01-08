@@ -1,0 +1,28 @@
+.container{
+    background-color:lightblue;
+
+}
+#yesbutton{
+   position: absolute;
+   margin-left: 150px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+   justify-content: center;
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.btn{
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    color:black;
+
+}
+.btn:hover{
+    background-color:lightskyblue;
+}
